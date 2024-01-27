@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --Platform-Aliases-Texto-base: #c4c4ccdf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+#box {
+    max-width: 102.4rem;
+    margin: auto;
+}
+
+nav{
+    margin: 4rem 7.2rem;
+    display: flex;
+    gap: 4.3rem;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 5.3rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Platform-Aliases-Texto-base);
+    font-family: Roboto;
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    transition: all .3s;
+}
+
+a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+/* HOME */
+#content {
+    height: 80vh;
+    display: grid;
+    place-content: center;
+}
+
+#home-area {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+h1 {
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+button {
+    color: var(--Neutral-Colors-White, #FFF);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    padding: 1.2rem 3.2rem;
+}
+
+/* O Universo */
+
+#universe-area {
+    width: 100.8rem;
+    margin: 10.2rem 10.2rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+}
+
+h2 {
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-family: Roboto;
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+p {
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/* Exploração */
+
+#exploration-area {
+    width: 100.8rem;
+    margin: 10.2rem 10.2rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+}
